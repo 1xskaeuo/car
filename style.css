@@ -1,0 +1,119 @@
+/* body{
+    background-color: red;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    70% {background-color: aqua;}
+    100% {background-color: red;}
+} */
+
+ .car-body{
+    position: relative;
+    top: 100px;
+    left: 300px;
+    height: 30px;
+    width: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: red;
+    box-shadow: 0px 5px 9px ;
+    animation-name: car-body;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border: 1px solid black;
+ }
+ /* .headlight{
+   position: absolute;
+   border: 1px solid black;
+   left: 5px;
+   width: 10px;
+   height: 10px;
+   background-color: yellow;
+   border-radius: 40px;
+ }
+ .headlight1{
+   position: absolute;
+   border: 1px solid black;
+   left: 132px;
+   width: 10px;
+   height: 10px;
+   background-color: yellow;
+   border-radius: 40px;
+ } */
+ .car-top{
+    position: absolute;
+    left: 37.5px;
+    bottom: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 25px;
+    width: 75px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-color: black;
+ }
+ .car-wheel1{
+    position: relative;
+    top: 83px;
+    left: 300px;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    animation-name: car-wheel1-drive;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border: 1px solid white;
+ }
+ .car-wheel1-circle{
+    position: absolute;
+    top: 10.5px;
+    left: 10.5px;
+    background-color: gray;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+ }
+ .car-wheel2{
+    position: relative;
+    top: 55px;
+    left: 425px;
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 100px;
+    animation-name: car-wheel2-drive;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border: 1px solid white;
+ }
+ .car-wheel2-circle{
+    position: absolute;
+    top: 10.5px;
+    left: 10.5px;
+    background-color: gray;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+ }
+ @keyframes car-wheel1-drive {
+    0% {rotate: 0deg;left: 0;}
+    50% {rotate:360deg;left: 300px;}
+    100% {rotate:0deg;left: 0;}
+ }
+ @keyframes car-wheel2-drive {
+    0% {rotate: 0deg;left: 125px;}
+    50% {rotate:360deg;left: 424px;}
+    100% {rotate:0deg;left: 125px;}
+    
+ }
+ @keyframes car-body{
+    0% {left: 0;}
+    50% {left: 300px;}
+    100%{left: 0;}
+ }
